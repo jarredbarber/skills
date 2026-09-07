@@ -29,7 +29,7 @@ Capture that id — it's needed to continue the conversation. On a failed turn (
 ## Continuing the same session
 
 ```bash
-node /home/jarred/code/agents/skills/external-subagents/bin/external-subagents.mjs continue a1b2c3d4 "<follow-up prompt>"
+node <skill-path>/bin/external-subagents.mjs continue a1b2c3d4 "<follow-up prompt>"
 ```
 
 Reuses the same model as the session was started with unless you pass `--model` again. Each call is a separate turn in the same conversation — use this to review the subagent's work, give corrections, or ask follow-up questions, the same way you'd drive a human collaborator over several messages.
