@@ -1,5 +1,11 @@
 # Jarred's Skillset
 
+Installation:
+
+```bash
+npx skills@latest add jarredbarber/skills
+```
+
 ## Skills
 
 ### Workflow
